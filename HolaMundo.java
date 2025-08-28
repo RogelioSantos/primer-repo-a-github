@@ -12,6 +12,14 @@ public class HolaMundo{
         System.out.println("¿Cuál es tu edad?");
         int edad = scanner.nextInt();
         System.out.println("Felicidades por esos " + edad + " años");
+
+        System.out.println("Eres mayor de edad? (true/false)");
+        boolean mayorDeEdad = scanner.nextBoolean();
+        if(mayorDeEdad){
+            System.out.println("Adelante con la fiesta");
+        } else{
+            System.out.println("Aún no puedes entrar a la fiesta");
+        }
     }
 
 }
