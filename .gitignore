@@ -1,0 +1,10 @@
+ECHO est� activado.
+# Ignorar archivos compilados de Java
+*.class
+
+# Ignorar carpetas de compilacion
+bin/
+out/
+
+# Ignorar archivos de configuracion de IDEs
+.vscode/
